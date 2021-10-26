@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "755477662317",
+    "project_id": "fwms-640da",
+    "storage_bucket": "fwms-640da.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:755477662317:android:26818a81ed688cfe424d64",
+        "android_client_info": {
+          "package_name": "com.liugang.fwms"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "755477662317-qdk5l3t43fjoudkcdsp54f6i5api5eqd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDmjsQcHLGPDa9qqf19aL60HGtE8jii1x0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "755477662317-qdk5l3t43fjoudkcdsp54f6i5api5eqd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
