@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <!--
     If you are serving your web app in a path other than the root, change the
@@ -26,19 +27,35 @@
   <title>gtk_flutter</title>
   <link rel="manifest" href="manifest.json">
 </head>
+
 <body>
   <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-app.js"></script>
   <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-auth.js"></script>
   <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-firestore.js"></script>
   <script>
+    // Import the functions you need from the SDKs you need
+    import { initializeApp } from "firebase/app";
+    import { getAnalytics } from "firebase/analytics";
+    // TODO: Add SDKs for Firebase products that you want to use
+    // https://firebase.google.com/docs/web/setup#available-libraries
+
     // Your web app's Firebase configuration
-    var firebaseConfig = {
-      // ...
+    // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+    const firebaseConfig = {
+      apiKey: "AIzaSyBDIl9VYCQPkTFBIr9Oz2MIETHP5IjfR7M",
+      authDomain: "fwms-640da.firebaseapp.com",
+      projectId: "fwms-640da",
+      storageBucket: "fwms-640da.appspot.com",
+      messagingSenderId: "755477662317",
+      appId: "1:755477662317:web:5b55f4a79761aea5424d64",
+      measurementId: "G-NCW94ZGW6T"
     };
+
     // Initialize Firebase
-    firebase.initializeApp(firebaseConfig);
+    const app = initializeApp(firebaseConfig);
+    const analytics = getAnalytics(app);
   </script>
-  
+
   <!-- This script installs service_worker.js to provide PWA functionality to
        application. For more information, see:
        https://developers.google.com/web/fundamentals/primers/service-workers -->
@@ -107,4 +124,5 @@
     }
   </script>
 </body>
+
 </html>
